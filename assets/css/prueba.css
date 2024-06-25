@@ -1,0 +1,36 @@
+.contenedor{
+    width: 100%;
+    background-color: rgb(255, 153, 153);
+    padding: 5px;
+    height: 1px;
+}
+.ancho25{
+    width: 23%;
+    background-color: cornsilk;
+    float: left;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color:red ;
+    border-width: 5px;
+}
+.ancho23{
+    width: 24%;
+    background-color: rgb(89, 207, 16);
+    float: left;
+    padding: 5px;
+    margin: 3px;
+    
+}
+.ancho50{
+    width: 47%;
+    background-color: rgba(38, 151, 176, 0.769);
+    float: left;
+    padding: 5px;
+    margin: 1px;
+    
+}
+table{
+background-color: antiquewhite;
+}

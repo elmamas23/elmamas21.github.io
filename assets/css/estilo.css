@@ -1,0 +1,175 @@
+/*
+css: cascade style sheet==>hoja de estilos en cascada
+*/
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jacquard+12&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-pantalla-patron-fondo-abstracto-grunge-negro-foto-gratis_1340-33834.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1718582400&semt=ais_user);
+  font-family: "Cormorant Garamond", serif;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(232, 134, 134);
+  padding: 10px;
+  text-align: center;
+  border: outset black;
+  border-width: 5px;
+  border-color: rgb(245, 230, 230);
+}
+p {
+  color: rgba(0, 0, 0, 0.999);
+  background-color: rgb(215, 151, 151);
+  padding: 10px;
+  text-align: center;
+  border: outset;
+  border-width: 10px;
+  border-color: rgb(179, 158, 158);
+}
+.cabecera {
+  text-align: center;
+}
+
+.especial {
+  background-color: bisque;
+  color: antiquewhite;
+  border-color: hotpink;
+  border-style: solid;
+  border-radius: 100px;
+}
+.contenedor {
+  /*  width: 1200px; */
+  width: 100%;
+  margin: 0 auto;
+  height: 900px;
+}
+.principal {
+  /* width: 650px;numero absoluto */
+  width: 90%;
+  padding: 5px;
+  float: left;
+}
+.principal img {
+  width: 500px;
+  padding: 5px;
+  background-color: darkgray;
+  text-align: left;
+}
+.lateral {
+  /*  width: 300px; */
+  width: 40%;
+  float: left;
+}
+.lateral img {
+  width: 60%;
+  padding: 5px;
+  background-color: darkgray;
+  text-align: right;
+}
+
+.pie_pagina {
+  clear: both;
+  background-color: rgb(65, 47, 47);
+  color: #e08c02;
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
+  height: 150px;
+}
+.menu {
+  background-color: rgb(231, 204, 169);
+  padding: 5px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style: outset;
+  border-radius: 100px;
+  border-color: aliceblue;
+}
+.menu ul li {
+  display: inline;
+  list-style: none;
+  padding: 5px;
+  background-color: chartreuse;
+  border-style: outset;
+  border-radius: 100px;
+  border-color: rgb(237, 214, 214);
+  margin-left: 3px;
+  box-shadow: 5px 5px;
+  background-color: rgb(253, 142, 142);
+  text-align: center;
+}
+.menu ul li a {
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  color: darkviolet;
+  font-size: 1.3em;
+}
+
+.info {
+  float: left;
+  width: 45%;
+}
+
+.rsocial {
+  float: left;
+  width: 45%;
+}
+.rsocial img {
+  width: 30px;
+  text-align: center;
+}
+.principal label {
+  font: size 15px;
+  color: rgb(254, 254, 254);
+  background-color: rgb(229, 132, 132);
+}
+input[type="text"] {
+  font-size: 15px;
+  color: aliceblue;
+  background-color: #4f1d1c;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.999);
+  background-color: rgb(103, 81, 81);
+  padding:1px;
+  text-align: center;
+  border: outset rgb(105, 67, 67);
+  border-width: 5px;
+  border-color: rgb(105, 77, 77);
+}
+h3 {
+  color: aliceblue;
+  background-color:rgb(55, 45, 45) ;
+  text-align: center;
+  border: outset;
+  border-color: blueviolet;
+  padding: 1%;
+  font-size: large;
+}
+h5 {
+  background-color: rgb(129, 87, 83);
+  color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  border: outset;
+  font-size: 20px;
+}
+table{
+  background-color: rgb(135, 94, 82);
+  border: solid;
+  border-color: brown;
+}
+
+th {
+  background-color: rgb(135, 94, 82);
+  font-size: large;
+  color: black;
+}
+td {
+  background-color: rgb(135, 94, 82);
+  font-size: large;
+  color: black;
+}
+.principal textarea{
+  background-color: aquamarine;
+  border: outset;
+}
